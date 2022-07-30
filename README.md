@@ -29,4 +29,3 @@ Used to remove a function from the event handler list for a game event.
 * **self (table)** - The module registered for the event.
 * **event (string)** - Name of the registered game event.
 * **callback (function,string)** - function or method to be removed from the list of event handlers.If this is the only handler for the given event, then the frame will be unregistered for the event.
-
