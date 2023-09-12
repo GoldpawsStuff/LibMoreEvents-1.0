@@ -24,7 +24,7 @@
 
 --]]
 local MAJOR_VERSION = "LibMoreEvents-1.0"
-local MINOR_VERSION = 3
+local MINOR_VERSION = 4
 
 if (not LibStub) then
 	error(MAJOR_VERSION .. " requires LibStub.")
