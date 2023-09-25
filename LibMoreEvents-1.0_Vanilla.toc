@@ -1,4 +1,4 @@
-## Interface: 100107
+## Interface: 11404
 ## IconTexture: Interface\ICONS\Pet_Type_Mechanical
 
 ## Title: Lib: MoreEvents-1.0
@@ -10,5 +10,9 @@
 ## X-Curse-Project-ID:
 ## X-Wago-ID:
 ## X-License: MIT
+
+#@non-debug@
+#libs\LibStub\LibStub.lua
+#@end-non-debug@
 
 LibMoreEvents-1.0.lua

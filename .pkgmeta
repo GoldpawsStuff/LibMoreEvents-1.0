@@ -2,12 +2,9 @@ package-as: LibMoreEvents-1.0
 enable-nolib-creation: no
 
 externals:
-    LibMoreEvents-1.0/libs/LibStub:
+    libs/LibStub:
         url: svn://svn.wowace.com/wow/libstub/mainline/trunk
         tag: latest
-
-move-folders:
-    LibMoreEvents-1.0/LibMoreEvents-1.0: LibMoreEvents-1.0
 
 manual-changelog:
     filename: CHANGELOG.md

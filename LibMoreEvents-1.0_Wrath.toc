@@ -11,4 +11,8 @@
 ## X-Wago-ID:
 ## X-License: MIT
 
+#@non-debug@
+#libs\LibStub\LibStub.lua
+#@end-non-debug@
+
 LibMoreEvents-1.0.lua
