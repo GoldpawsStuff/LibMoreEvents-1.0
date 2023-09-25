@@ -5,6 +5,31 @@ It is highly inspired by oUF's event handling, and allows you to register multip
 
 Also note that this only handles actual game events.
 
+To embed using the Bigwigs or CurseForge packagers put the following in your .pkgmeta file:
+
+```yaml
+externals:
+    libs/LibStub:
+        url: svn://svn.wowace.com/wow/libstub/mainline/trunk
+        tag: latest
+    libs/LibMoreEvents-1.0: https://github.com/GoldpawsStuff/LibMoreEvents-1.0
+```
+
+And then load the library either through an .xml file (assumingly located in your addons root folder):
+
+```xml
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="libs\LibMoreEvents-1.0\LibMoreEvents-1.0.lua"/>
+</Ui>
+```
+
+Or through your .toc file:
+
+```
+libs\LibMoreEvents-1.0\LibMoreEvents-1.0.lua
+```
+
+
 ## RegisterEvent(self, event, callback)
 Used to register a module for a game event and add an event handler.
 
