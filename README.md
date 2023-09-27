@@ -23,10 +23,9 @@ And then load the library either through an .xml file (assumingly located in you
 
 Or through your .toc file:
 
-```
+```shell
 libs\LibMoreEvents-1.0\LibMoreEvents-1.0.lua
 ```
-
 
 ## RegisterEvent(self, event, callback)
 Used to register a module for a game event and add an event handler.
