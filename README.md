@@ -1,9 +1,7 @@
 # LibMoreEvents-1.0
 LibMoreEvents-1.0 is a LibStub library intended as an alternative to AceEvent-3.0. It is self-contained and does not require CallbackHandler.
 
-It is highly inspired by oUF's event handling, and allows you to register multiple callbacks for the same event in the same module, and it also accepts both module method names and function references as input values.
-
-Also note that this only handles actual game events.
+The main difference is that it allows you to register/unregister multiple callbacks for the same game event at once in the same module, instead of just having a single handler for the game event.
 
 To embed using the Bigwigs or CurseForge packagers put the following in your .pkgmeta file:
 
