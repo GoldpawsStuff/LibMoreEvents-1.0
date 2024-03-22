@@ -1,4 +1,4 @@
-## Interface: 100206
+## Interface: 40400
 ## IconTexture: Interface\ICONS\Pet_Type_Mechanical
 
 ## Title: Lib: MoreEvents-1.0
